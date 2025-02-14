@@ -26,9 +26,10 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-                <Card.Title>Varsity Volleyball Team Captain</Card.Title>
+                <Card.Title className="fw-bold">Captain</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Western Varsity Men's Volleyball Team, 2021-present</Card.Subtitle>
                 <Card.Text>
-                  Worked as a volunteer at XYZ organization, managing events and assisting with community outreach programs.
+                  Named team captain in my fourth year by coaches, teammates, and alumni. I'm actively placing a special emphasis on humility, mental training practices, and academic excellence habits, adding to an already rich program culture.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -43,9 +44,10 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-                <Card.Title>Co-Founder, Western Quantum Club</Card.Title>
+                <Card.Title className="fw-bold">Co-Founder & Co-President</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Western Quantum Club, 2022-present</Card.Subtitle>
                 <Card.Text>
-                  Led the ABC club, organized weekly meetings, and worked to create engaging activities for club members.
+                  Led the strategic vision of the club, which seeks to educate and inspire undergraduate students in the exciting field of quantum computing. I've collaborated with academia, industry experts, and corporate sponsors to deliver a pioneering quantum computing club experience to all members by organizing hackathons and managing client projects.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -60,9 +62,12 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-                <Card.Title>VP Movember, Mustang Athlete Student Council</Card.Title>
+                <Card.Title className="fw-bold">VP - Movember Initiatives</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Mustang Athlete Student Council, 2024-present</Card.Subtitle>
                 <Card.Text>
-                  Acted as a mentor for incoming students, offering advice and guidance to help them navigate university life.
+                    Organized a campus-wide Movember campaign to raise awareness for men's health. I collaborated with 14 varsity teams and raised over $7,000 for the cause. I even got the chance to interview Canadian Olympic Champion Damian Warner while I was at it!  
+                    <a> </a>
+                    <a href="https://www.linkedin.com/posts/nicolas-folz_this-movember-together-with-the-mustangs-activity-7268772083604537344-zRXH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADecxnYBokYS18lPZjyzXnOnwaqhSTeZFt8" target="_blank" rel="noopener noreferrer">Watch our promotional video here.</a>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -84,7 +89,8 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-                <Card.Title>Finance & Operations Intern, Pillar to Post</Card.Title>
+              <Card.Title className="fw-bold">Finance & Operations Intern</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Pillar to Post, May-October 2024</Card.Subtitle>
                 <Card.Text>
                   Worked on developing internal tools using React and JavaScript to automate and streamline business processes.
                 </Card.Text>
@@ -101,7 +107,8 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-                <Card.Title>Finance Intern</Card.Title>
+              <Card.Title className="fw-bold">Finance Intern</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">OSL Retail Services, May-September 2023</Card.Subtitle>
                 <Card.Text>
                   Conducted data analysis to optimize franchise recruitment processes, creating automated reports and dashboards.
                 </Card.Text>
@@ -118,7 +125,8 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-                <Card.Title>Volleyball Coach</Card.Title>
+              <Card.Title className="fw-bold">Academic Tutor</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Self-Employed, 2020-present</Card.Subtitle>
                 <Card.Text>
                   Managed a team of developers to build and launch a new internal platform, improving cross-department collaboration.
                 </Card.Text>

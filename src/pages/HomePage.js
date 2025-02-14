@@ -27,7 +27,7 @@ const HomePage = () => {
             <Card.Body>
               <Card.Title style={{ fontSize: '3rem' }}>Welcome to My Website!</Card.Title>
               <Card.Text style={{ fontSize: '1.25rem' }}>
-                Hi, I'm <strong>Nicolas Folz</strong>, and this is the home page of my personal website. Here, you can find information about my projects, experiences, and more.
+                Hi, I'm <strong>Nicolas Folz</strong>. Welcome to my personal website! I'm a undergraduate student passionate about all things at the intersection of business, technology, and entrepreneurship. You can read more about myself, my experiences, projects, and fun bits!
               </Card.Text>
             </Card.Body>
           </Card>

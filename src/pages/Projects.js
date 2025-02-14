@@ -8,13 +8,15 @@ function Projects() {
 
       {/* Row for cards */}
       <Row>
-        {/* Card 1 */}
-        <Col md={4} className="mb-4">
+      <Col md={4} className="mb-4">
+  {/* Card 1 */}
+  <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Project 1</Card.Title>
+              <Card.Title className="fw-bold">Vehicle Routing Optimization App</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Western Quantum Club, 2024-present</Card.Subtitle>
               <Card.Text>
-                This is an example project I worked on. It uses React, Node.js, and MongoDB to build a full-stack application.
+                Led the development of a vehicle routing application, optimized using quantum computing. See our code and our business pitch.
               </Card.Text>
               <Button variant="secondary" href="https://example.com" target="_blank">
           Learn More
@@ -22,14 +24,18 @@ function Projects() {
             </Card.Body>
           </Card>
         </Col>
+        </Col>
+
+
 
         {/* Card 2 */}
         <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Project 2</Card.Title>
+            <Card.Title className="fw-bold">Travel Destinations Web App</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Web Technologies Course, 2024</Card.Subtitle>
               <Card.Text>
-                This is another project I worked on. It uses Express.js and MongoDB to build a RESTful API.
+                Used a MERN stack with a RESTful API that allows users to plan their European travels.
               </Card.Text>
               <Button variant="secondary" href="https://example.com" target="_blank">
           Learn More
@@ -42,9 +48,10 @@ function Projects() {
         <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Project 3</Card.Title>
+            <Card.Title className="fw-bold">Portfolio Optimization Program</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Western Quantum Club, 2024</Card.Subtitle>
               <Card.Text>
-                A data visualization project built with React and D3.js to create interactive charts and graphs.
+                An equity portfolio builder that uses a novel quantum computing algorithm that optimizes for low risk and high returns.
               </Card.Text>
               <Button variant="secondary" href="https://example.com" target="_blank">
           Learn More
@@ -57,9 +64,10 @@ function Projects() {
         <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Project 4</Card.Title>
+            <Card.Title className="fw-bold">Optomology Healthcare App</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Software Design, 2025-present</Card.Subtitle>
               <Card.Text>
-                A machine learning model built in Python using scikit-learn to predict housing prices based on various factors.
+                Working with an international client to develop an app that safely collects optomological patient data to prevent the spread of eye diseases.
               </Card.Text>
               <Button variant="secondary" href="https://example.com" target="_blank">
           Learn More
