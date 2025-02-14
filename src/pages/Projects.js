@@ -16,7 +16,9 @@ function Projects() {
               <Card.Text>
                 This is an example project I worked on. It uses React, Node.js, and MongoDB to build a full-stack application.
               </Card.Text>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="secondary" href="https://example.com" target="_blank">
+          Learn More
+        </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -29,7 +31,9 @@ function Projects() {
               <Card.Text>
                 This is another project I worked on. It uses Express.js and MongoDB to build a RESTful API.
               </Card.Text>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="secondary" href="https://example.com" target="_blank">
+          Learn More
+        </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -42,7 +46,9 @@ function Projects() {
               <Card.Text>
                 A data visualization project built with React and D3.js to create interactive charts and graphs.
               </Card.Text>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="secondary" href="https://example.com" target="_blank">
+          Learn More
+        </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -55,7 +61,9 @@ function Projects() {
               <Card.Text>
                 A machine learning model built in Python using scikit-learn to predict housing prices based on various factors.
               </Card.Text>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="secondary" href="https://example.com" target="_blank">
+          Learn More
+        </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -68,7 +76,9 @@ function Projects() {
               <Card.Text>
                 A mobile app developed using React Native that allows users to track their daily fitness progress.
               </Card.Text>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="secondary" href="https://example.com" target="_blank">
+          Learn More
+        </Button>
             </Card.Body>
           </Card>
         </Col>
