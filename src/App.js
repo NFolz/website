@@ -1,6 +1,5 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/HomePage';
 import About from './pages/AboutPage';
@@ -10,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router basename="/website">
+    <Router>
       <NavBar />
       <div className="content">
         <Routes>
