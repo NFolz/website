@@ -95,7 +95,7 @@ const Experiences = () => {
                 <Card.Text>
                   Optimized the franchisee recruitment process by drawing insights from surveys, financial performance, and market reports, enhancing the new executive franchisee recruitment model. Met with various stakeholders to design a new chart of accounts and financial reporting tool, creating automated reports and dashboards. Streamlined complex accounting processes using VBA.
                 </Card.Text>
-                <StockTicker symbol="FSV.TO" /> 
+                <StockTicker symbol="FSV" /> 
               </Card.Body>
             </Card>
           </Col>
