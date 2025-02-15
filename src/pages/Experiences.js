@@ -6,6 +6,7 @@ import movember from '../assets/movember.jpg';
 import p2p from '../assets/p2p.jpg';
 import osl from '../assets/osl.png';
 import vball from '../assets/Volleyball_Training.png';
+import StockTicker from "../components/stockPrice";  // Import the StockTicker component
 
 const Experiences = () => {
   return (
@@ -94,6 +95,7 @@ const Experiences = () => {
                 <Card.Text>
                   Optimized the franchisee recruitment process by drawing insights from surveys, financial performance, and market reports, enhancing the new executive franchisee recruitment model. Met with various stakeholders to design a new chart of accounts and financial reporting tool, creating automated reports and dashboards. Streamlined complex accounting processes using VBA.
                 </Card.Text>
+                <StockTicker symbol="FSV.TO" /> 
               </Card.Body>
             </Card>
           </Col>
@@ -110,7 +112,7 @@ const Experiences = () => {
               <Card.Title className="fw-bold">Finance Intern</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">OSL Retail Services, May-September 2023</Card.Subtitle>
                 <Card.Text>
-                  Conducted data analysis and worked with an international, cross-functional team to claim over $1M from international duty drawbacks for a retail company.
+                  Conducted data analysis and worked with an international, cross-functional team to claim over $1M from international duty drawbacks for a retail subsidiary.
                 </Card.Text>
               </Card.Body>
             </Card>
