@@ -8,9 +8,7 @@ function Projects() {
 
       {/* Row for cards */}
       <Row>
-      <Col md={4} className="mb-4">
-  {/* Card 1 */}
-  <Col md={4} className="mb-4">
+        <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
               <Card.Title className="fw-bold">Vehicle Routing Optimization App</Card.Title>
@@ -23,7 +21,6 @@ function Projects() {
         </Button>
             </Card.Body>
           </Card>
-        </Col>
         </Col>
 
 
@@ -68,21 +65,6 @@ function Projects() {
             <Card.Subtitle className="mb-2 text-muted">Software Design, 2025-present</Card.Subtitle>
               <Card.Text>
                 Working with an international client to develop an app that safely collects optomological patient data to prevent the spread of eye diseases.
-              </Card.Text>
-              <Button variant="secondary" href="https://example.com" target="_blank">
-          Learn More
-        </Button>
-            </Card.Body>
-          </Card>
-        </Col>
-
-        {/* Card 5 */}
-        <Col md={4} className="mb-4">
-          <Card>
-            <Card.Body>
-              <Card.Title>Project 5</Card.Title>
-              <Card.Text>
-                A mobile app developed using React Native that allows users to track their daily fitness progress.
               </Card.Text>
               <Button variant="secondary" href="https://example.com" target="_blank">
           Learn More

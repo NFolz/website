@@ -92,7 +92,7 @@ const Experiences = () => {
               <Card.Title className="fw-bold">Finance & Operations Intern</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">Pillar to Post, May-October 2024</Card.Subtitle>
                 <Card.Text>
-                  Worked on developing internal tools using React and JavaScript to automate and streamline business processes.
+                  Optimized the franchisee recruitment process by drawing insights from surveys, financial performance, and market reports, enhancing the new executive franchisee recruitment model. Met with various stakeholders to design a new chart of accounts and financial reporting tool, creating automated reports and dashboards. Streamlined complex accounting processes using VBA.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -110,7 +110,7 @@ const Experiences = () => {
               <Card.Title className="fw-bold">Finance Intern</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">OSL Retail Services, May-September 2023</Card.Subtitle>
                 <Card.Text>
-                  Conducted data analysis to optimize franchise recruitment processes, creating automated reports and dashboards.
+                  Conducted data analysis and worked with an international, cross-functional team to claim over $1M from international duty drawbacks for a retail company.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -128,7 +128,7 @@ const Experiences = () => {
               <Card.Title className="fw-bold">Academic Tutor</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">Self-Employed, 2020-present</Card.Subtitle>
                 <Card.Text>
-                  Managed a team of developers to build and launch a new internal platform, improving cross-department collaboration.
+                  Entrepreneurial venture that provides tutoring services for high-school and university students, specializing in Algebra, Calculus, Physics, and Chemistry.
                 </Card.Text>
               </Card.Body>
             </Card>
