@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <div className="content">
+      <div className="content" style={{ marginTop: '80px' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -20,11 +20,11 @@ function App() {
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/fun" element={<Fun />} />
           <Route path="/contact" element={<Contact />} />
-          
         </Routes>
       </div>
     </Router>
   );
 }
+
 
 export default App;

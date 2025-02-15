@@ -29,7 +29,7 @@ const StockTicker = ({ symbol }) => {
     };
 
     fetchStockPrice();
-    const interval = setInterval(fetchStockPrice, 600000000); // Refresh every 60 sec
+    const interval = setInterval(fetchStockPrice, 600000000); // Refresh every hour
 
     return () => clearInterval(interval);
   }, [symbol]);

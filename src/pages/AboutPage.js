@@ -68,7 +68,7 @@ function About() {
             <Card.Body>
               <Card.Title className="fw-bold">Education</Card.Title>
               <Card.Text>
-                I am currently pursuing a dual-degree in software engineering and business at the Ivey Business School at Western University. I began my journey in 2021, and plan to graduate my five-year program in April of 2026.
+                I am currently pursuing a dual-degree in Software Engineering and Business at the Ivey Business School at Western University. I began my journey in 2021, and plan to graduate my five-year program in April of 2026.
 
                 My favorite courses so far have been Finance, Strategy, Operations, Computer Networks, Quantum Computing, and Calculus. I'm looking forward to my Engineering Capstone Project and Corporations in Society!
               </Card.Text>
