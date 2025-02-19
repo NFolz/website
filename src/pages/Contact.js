@@ -38,10 +38,7 @@ const Contact = () => {
             <Card.Body>
               <Card.Title>Contact Information</Card.Title>
               <Card.Text>
-                <strong>Email:</strong> example@example.com
-              </Card.Text>
-              <Card.Text>
-                <strong>Phone:</strong> +1 234 567 890
+                <strong>Email:</strong> NFolz@uwo.ca
               </Card.Text>
               <Card.Text>
                 <strong>Location:</strong> Western University, Canada

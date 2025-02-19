@@ -1,33 +1,35 @@
-import React from 'react';
-import { Container, Row, Col, Card, Image } from 'react-bootstrap';
-import headshot from '../assets/Ivey_Headshot.jpg';  // Make sure to place your image in the correct path
+import React from "react";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import headshot from "../assets/Ivey_Headshot.jpg"; // Ensure correct image path
 
 const HomePage = () => {
   return (
-    <Container fluid className="my-5">
-      <Row className="align-items-center" style={{ minHeight: '100vh' }}>
+    <Container fluid className="d-flex align-items-center justify-content-center min-vh-100">
+      <Row className="align-items-center w-100">
         {/* Headshot Column */}
-        <Col md={6} className="text-center">
+        <Col md={5} className="text-center">
           <Image
             src={headshot}
             alt="Nicolas Folz"
             roundedCircle
             fluid
-            style={{
-              maxWidth: '350px',
-              maxHeight: '350px',
-              marginBottom: '30px',
-            }}
+            className="shadow-lg"
+            style={{ maxWidth: "300px", maxHeight: "300px" }}
           />
         </Col>
 
         {/* Welcome Message Column */}
-        <Col md={6}>
-          <Card style={{ height: '100%' }}>
+        <Col md={7}>
+          <Card className="border-0 shadow-lg p-4">
             <Card.Body>
-              <Card.Title style={{ fontSize: '3rem' }}>Welcome to My Website!</Card.Title>
-              <Card.Text style={{ fontSize: '1.25rem' }}>
-                Hi, I'm <strong>Nicolas Folz</strong>. Welcome to my personal website! I'm a undergraduate student passionate about all things at the intersection of business, technology, and entrepreneurship. You can read more about myself, my experiences, projects, and ways to get in touch! This website is a work-in-progess, and any feedback would be greatly appreciated.
+              <Card.Title className="fw-bold" style={{ fontSize: "2.5rem" }}>
+                Welcome to My Website!
+              </Card.Title>
+              <Card.Text className="mt-3" style={{ fontSize: "1.2rem", lineHeight: "1.6" }}>
+                Hi, I'm <strong>Nicolas Folz</strong>. I'm an undergraduate student passionate
+                about the intersection of business, technology, and entrepreneurship. 
+                Here, you'll find insights into my experiences, projects, and ways to connect.
+                This website is a work in progress, and I'd love to hear any feedback!
               </Card.Text>
             </Card.Body>
           </Card>
