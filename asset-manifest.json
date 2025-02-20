@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.62f8cfdd.css",
-    "main.js": "/website/static/js/main.f644aa38.js",
+    "main.js": "/website/static/js/main.416f8fd3.js",
     "static/js/488.9d97ac5d.chunk.js": "/website/static/js/488.9d97ac5d.chunk.js",
     "static/media/quantum_headshot.jpg": "/website/static/media/quantum_headshot.6a5a3a4b2f20ba8c8501.jpg",
     "static/media/Volleyball_Training.png": "/website/static/media/Volleyball_Training.878c5fdc50d47580dd73.png",
@@ -10,20 +10,24 @@
     "static/media/movember.jpg": "/website/static/media/movember.11a5496c1098edc2113f.jpg",
     "static/media/hawaii.jpg": "/website/static/media/hawaii.42fdb219f694b2aeb256.jpg",
     "static/media/quantum_team.jpg": "/website/static/media/quantum_team.891006b036ca0c351ed3.jpg",
+    "static/media/webtech.png": "/website/static/media/webtech.2d0929dd6cd235ba506d.png",
     "static/media/Ivey_Headshot.jpg": "/website/static/media/Ivey_Headshot.fa96647db2e37db858bc.jpg",
     "static/media/seniornight.jpg": "/website/static/media/seniornight.809f11e7a7c2d879ebbc.jpg",
     "static/media/Ivey-Business-School-building.jpg": "/website/static/media/Ivey-Business-School-building.d1886d6cbd4a11b6ae42.jpg",
+    "static/media/shaimaa.png": "/website/static/media/shaimaa.9307d219c8bcd0622794.png",
+    "static/media/qpo.png": "/website/static/media/qpo.4f59e50bffc9885a047c.png",
+    "static/media/vrp.png": "/website/static/media/vrp.d0a867a1e4945584c8dc.png",
     "static/media/volleyball.jpg": "/website/static/media/volleyball.af1cfec5da5532980819.jpg",
     "static/media/intelligentinvestor.jpg": "/website/static/media/intelligentinvestor.34b4bd22b935641b06c6.jpg",
     "static/media/neverplayitsafe.jpg": "/website/static/media/neverplayitsafe.9dd68c9a63ced132d6a3.jpg",
     "static/media/ashorthistoryoftheworld.jpg": "/website/static/media/ashorthistoryoftheworld.9a5bc0e7ebc217e7d108.jpg",
     "index.html": "/website/index.html",
     "main.62f8cfdd.css.map": "/website/static/css/main.62f8cfdd.css.map",
-    "main.f644aa38.js.map": "/website/static/js/main.f644aa38.js.map",
+    "main.416f8fd3.js.map": "/website/static/js/main.416f8fd3.js.map",
     "488.9d97ac5d.chunk.js.map": "/website/static/js/488.9d97ac5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62f8cfdd.css",
-    "static/js/main.f644aa38.js"
+    "static/js/main.416f8fd3.js"
   ]
 }
