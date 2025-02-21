@@ -10,9 +10,9 @@ import intelligentinvestor from '../assets/intelligentinvestor.jpg';
 const Fun = () => {
   return (
     <Container className="mt-5">
-      <h2>Fun</h2>
+      <h1 className="text-center mb-5">Fun</h1>
       {/* Recent Events */}
-      <h3>Recent Events</h3>
+      <h2>Recent Events</h2>
       <Row className="mb-4">
         <Col md={4}>
           <Card>

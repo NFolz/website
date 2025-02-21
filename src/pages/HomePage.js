@@ -14,7 +14,7 @@ const HomePage = () => {
             roundedCircle
             fluid
             className="shadow-lg"
-            style={{ maxWidth: "300px", maxHeight: "300px" }}
+            style={{ maxWidth: "500px", maxHeight: "500px" }}
           />
         </Col>
 
@@ -26,10 +26,10 @@ const HomePage = () => {
                 Welcome to My Website!
               </Card.Title>
               <Card.Text className="mt-3" style={{ fontSize: "1.2rem", lineHeight: "1.6" }}>
-                Hi, I'm <strong>Nicolas Folz</strong>. I'm an undergraduate student passionate
+                Hey! I'm <strong>Nicolas Folz</strong>. I'm an undergraduate student passionate
                 about the intersection of business, technology, and entrepreneurship. 
-                Here, you'll find insights into my experiences, projects, and ways to connect.
-                This website is a work in progress, and I'd love to hear any feedback!
+                Here, you'll find insights into my experiences, projects, and more.
+                This website is a work in progress; your feedback is appreciated!
               </Card.Text>
             </Card.Body>
           </Card>

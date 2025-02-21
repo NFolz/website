@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Row, Image } from 'react-bootstrap';
+import { Card, Col, Row, Image, Button } from 'react-bootstrap';
 import volleyball from '../assets/volleyball.jpg';  // Replace with actual image paths
 import quantumgroup from '../assets/quantum_team.jpg';
 import movember from '../assets/movember.jpg';
@@ -11,7 +11,7 @@ import StockTicker from "../components/stockPrice";  // Import the StockTicker c
 const Experiences = () => {
   return (
     <div className="container mt-5">
-      <h2>Experiences</h2>
+      <h1 className="text-center mb-5">Experiences</h1>
 
       {/* Extracurricular Experiences */}
       <div className="my-5">
@@ -54,25 +54,32 @@ const Experiences = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card>
-              <Image 
-                src={movember} 
-                alt="VP, Movember Campaign" 
-                fluid 
-                rounded 
-                style={{ height: '200px', objectFit: 'cover' }} // Image styling
-              />
-              <Card.Body>
-                <Card.Title className="fw-bold">VP - Movember Initiatives</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Mustang Athlete Student Council, 2024-present</Card.Subtitle>
-                <Card.Text>
-                    Organized a campus-wide Movember campaign to raise awareness for men's health. I collaborated with 14 varsity teams and raised over $7,000 for the cause. I even got the chance to interview Canadian Olympic Champion Damian Warner while I was at it!  
-                    <a> </a>
-                    <a href="https://www.linkedin.com/posts/nicolas-folz_this-movember-together-with-the-mustangs-activity-7268772083604537344-zRXH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADecxnYBokYS18lPZjyzXnOnwaqhSTeZFt8" target="_blank" rel="noopener noreferrer">Watch our promotional video here.</a>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+  <Card>
+    <Image 
+      src={movember} 
+      alt="VP, Movember Campaign" 
+      fluid 
+      rounded 
+      style={{ height: '200px', objectFit: 'cover' }} // Image styling
+    />
+    <Card.Body>
+      <Card.Title className="fw-bold">VP - Movember Initiatives</Card.Title>
+      <Card.Subtitle className="mb-2 text-muted">Mustang Athlete Student Council, 2024-present</Card.Subtitle>
+      <Card.Text>
+        Organized a campus-wide Movember campaign to raise awareness for men's health. I collaborated with 14 varsity teams and raised over $7,000. I also got the chance to interview Canadian Olympic Champion Damian Warner!
+      </Card.Text>
+      <Button 
+        variant="secondary" 
+        href="https://www.linkedin.com/posts/nicolas-folz_this-movember-together-with-the-mustangs-activity-7268772083604537344-zRXH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADecxnYBokYS18lPZjyzXnOnwaqhSTeZFt8" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Learn More
+      </Button>
+    </Card.Body>
+  </Card>
+</Col>
+
         </Row>
       </div>
 
@@ -93,7 +100,7 @@ const Experiences = () => {
               <Card.Title className="fw-bold">Finance & Operations Intern</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">Pillar to Post, May-October 2024</Card.Subtitle>
                 <Card.Text>
-                  Optimized the franchisee recruitment process by drawing insights from surveys, financial performance, and market reports, enhancing the new executive franchisee recruitment model. Met with various stakeholders to design a new chart of accounts and financial reporting tool, creating automated reports and dashboards. Streamlined complex accounting processes using VBA.
+                  Optimized the franchisee recruitment process by drawing insights from surveys, financial performance, and market reports, enhancing the new executive franchisee recruitment model. Met with various stakeholders to design a new chart of accounts and financial reporting tool, creating automated reports and PowerBI dashboards. Streamlined complex accounting processes using VBA.
                 </Card.Text>
                 <StockTicker symbol="FSV" /> 
               </Card.Body>
@@ -127,10 +134,10 @@ const Experiences = () => {
                 style={{ height: '200px', objectFit: 'cover' }} // Image styling
               />
               <Card.Body>
-              <Card.Title className="fw-bold">Academic Tutor</Card.Title>
+              <Card.Title className="fw-bold">Academic Tutor & Volleyball Coach</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">Self-Employed, 2020-present</Card.Subtitle>
                 <Card.Text>
-                  Entrepreneurial venture that provides tutoring services for high-school and university students, specializing in Algebra, Calculus, Physics, and Chemistry.
+                  Entrepreneurial venture that provides tutoring services for high-school and university students, specializing in Algebra, Calculus, Physics, and Chemistry. I also provide private coaching sessions for indoor and beach volleyball.
                 </Card.Text>
               </Card.Body>
             </Card>
