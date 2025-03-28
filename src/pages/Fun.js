@@ -20,7 +20,7 @@ const Fun = () => {
             <Card.Img variant="top" src={natsPic} />
             <Card.Body>
               <Card.Title>USports National Championship</Card.Title>
-              <Card.Subtitle className="text-muted">March 2025</Card.Subtitle>
+              <Card.Subtitle className="text-muted">Brandon, MB, March 2025</Card.Subtitle>
               <Card.Text>Travelled to Brandon, Manitoba with the Western Men's Volleyball Team to compete for the national title after qualifying with a Bronze medal finish in the OUA.</Card.Text>
             </Card.Body>
           </Card>
