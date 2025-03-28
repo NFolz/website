@@ -6,6 +6,7 @@ import speakerseries from '../assets/speaker_series.jpg';
 import neverplayitsafe from '../assets/neverplayitsafe.jpg';
 import ashorthistory from '../assets/ashorthistoryoftheworld.jpg';
 import intelligentinvestor from '../assets/intelligentinvestor.jpg';
+import natsPic from '../assets/natsPlayingPic.jpg';
 
 const Fun = () => {
   return (
@@ -14,6 +15,16 @@ const Fun = () => {
       {/* Recent Events */}
       <h2>Recent Events</h2>
       <Row className="mb-4">
+      <Col md={4}>
+          <Card>
+            <Card.Img variant="top" src={natsPic} />
+            <Card.Body>
+              <Card.Title>USports National Championship</Card.Title>
+              <Card.Subtitle className="text-muted">March 2025</Card.Subtitle>
+              <Card.Text>Travelled to Brandon, Manitoba with the Western Men's Volleyball Team to compete for the national title after qualifying with a Bronze medal finish in the OUA.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
         <Col md={4}>
           <Card>
             <Card.Img variant="top" src={speakerseries} />
@@ -31,16 +42,6 @@ const Fun = () => {
               <Card.Title>Volleyball Senior's Night</Card.Title>
               <Card.Subtitle className="text-muted">Alumni Hall, February 2025</Card.Subtitle>
               <Card.Text>Had my volleyball team's seniors night, where myself and three other graduating teammates were recognized, before facing off against Windsor.</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-          <Card>
-            <Card.Img variant="top" src={hawaii} />
-            <Card.Body>
-              <Card.Title>Trip to Hawai'i</Card.Title>
-              <Card.Subtitle className="text-muted">December - 2024</Card.Subtitle>
-              <Card.Text>Took a family trip to Hawai'i over the Christmas break, celebrating my parents' 25th wedding anniversary. Great hikes and amazing beaches.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
